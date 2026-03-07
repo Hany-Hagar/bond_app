@@ -1,0 +1,111 @@
+name: ibond_application
+description: "A new Flutter project."
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.8
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.20.2
+
+  dio: ^5.9.1
+  glass: ^2.0.0
+  get_it: ^7.2.0
+  dartz: ^0.10.1
+  share_plus: ^12.0.1
+  photo_view: ^0.15.0
+  flutter_svg: ^2.2.3
+  url_launcher: ^6.3.2
+  flutter_bloc: ^8.1.2
+  image_picker: ^1.0.7
+  skeletonizer: ^2.1.3
+  hydrated_bloc: ^9.0.0
+  path_provider: ^2.1.5
+  google_sign_in: ^6.2.1 
+  cupertino_icons: ^1.0.8
+  flutter_screenutil: ^5.7.0
+  shared_preferences: ^2.5.4
+  cached_network_image: ^3.2.3 
+  flutter_facebook_auth: ^7.1.1
+  flutter_image_overlap: ^0.0.8
+  smooth_page_indicator: ^2.0.1
+  flutter_secure_storage: ^9.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  rename: ^3.1.0
+  flutter_lints: ^6.0.0
+  flutter_native_splash: ^2.4.7
+  flutter_launcher_icons: ^0.14.4
+
+  
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/fonts/
+    - assets/icons/
+  
+  fonts:
+    - family: Cairo
+      fonts:
+        - asset: assets/fonts/cairo/Cairo-Regular.ttf
+        - asset: assets/fonts/cairo/Cairo-Light.ttf
+          weight: 300
+        - asset: assets/fonts/cairo/Cairo-ExtraLight.ttf
+          weight: 200
+        - asset: assets/fonts/cairo/Cairo-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/cairo/Cairo-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/cairo/Cairo-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/cairo/Cairo-ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/cairo/Cairo-Black.ttf
+          weight: 900
+
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  remove_alpha_ios: true 
+  image_path: "assets/images/appLogo.png"
+  min_sdk_android: 21
+
+  adaptive_icon_background: "#34C759"
+  adaptive_icon_foreground: "assets/images/appLogo.png"
+  adaptive_icon_foreground_inset: 0
+  web:
+    generate: true
+    image_path: "assets/images/appLogo.png"
+    background_color: "#34C759"
+    theme_color: "#34C759"
+  windows:
+    generate: true
+    image_path: "assets/images/appLogo.png"
+    icon_size: 256
+  macos:
+    generate: true
+    image_path: "assets/images/appLogo.png"
+
+flutter_native_splash:
+  color: "#34C759"
+  image: "assets/images/splashLogo.png"
+  android: true
+  ios: true
+  web: true
+
+flutter_intl:
+  enabled: true

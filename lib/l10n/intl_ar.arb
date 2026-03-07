@@ -1,0 +1,561 @@
+{
+    "@@locale": "ar",
+
+
+
+    "skip": "تخطي",
+    "@skip": {
+        "description": "نص لزر التخطي في شاشة الترحيب"
+    },
+    "onBoardingTitle1": "ابقَ على اتصال",
+    "@onBoardingTitle1": {
+        "description": "عنوان شاشة الترحيب الأولى"
+    },
+    "onBoardingSubTitle1": "تحدث مع الأصدقاء والعائلة أو الزملاء في أي وقت ومن أي مكان.",
+    "@onBoardingSubTitle1": {
+        "description": "العنوان الفرعي لشاشة الترحيب الأولى"
+    },
+    "onBoardingTitle2": "الأمان والخصوصية",
+    "@onBoardingTitle2": {
+        "description": "عنوان شاشة الترحيب الثانية"
+    },
+    "onBoardingSubTitle2": "تم تشفير محادثاتك للحفاظ على أمان رسائلك وخصوصيتها.",
+    "@onBoardingSubTitle2": {
+        "description": "العنوان الفرعي لشاشة الترحيب الثانية    "
+    },
+    "onBoardingTitle3": "عبّر عن نفسك",
+    "@onBoardingTitle3": {
+        "description": "عنوان شاشة الترحيب الثالثة"
+    },
+    "onBoardingSubTitle3": "شارك الصور والملاحظات الصوتية والرموز التعبيرية لجعل كل محادثة أكثر متعة وشخصية.",
+    "@onBoardingSubTitle3": {
+        "description": "العنوان الفرعي لشاشة الترحيب الثالثة"
+    },
+
+
+
+    "loginTitle":"مرحبًا بك في",
+    "@loginTitle":{
+        "description": "عنوان شاشة تسجيل الدخول الرئيسي"
+    },
+    "loginSubTitle":"تسجيل الدخول للبدء في التواصل",
+    "@loginSubTitle":{
+        "description": "العنوان الفرعي لشاشة تسجيل الدخول"
+    },
+    "emailHint":"البريد الإلكتروني",
+    "@emailHint":{
+        "description": "نص تلميح حقل البريد الإلكتروني في شاشة تسجيل الدخول"
+    },
+    "passwordHint":"كلمة المرور",
+    "@passwordHint":{
+        "description": "نص تلميح حقل كلمة المرور في شاشة تسجيل الدخول"
+    },
+    "forgotPassword":"هل نسيت كلمة المرور؟",
+    "@forgotPassword":{
+        "description": "النص الخاص بخيار نسيت كلمة المرور في شاشة تسجيل الدخول"
+    },
+    "loginButton":"تسجيل الدخول",
+    "@loginButton":{
+        "description": "نص زر تسجيل الدخول في شاشة تسجيل الدخول"
+    },
+    "orLoginWith":"أو تسجيل الدخول بواسطة",
+    "@orLoginWith":{
+        "description": "النص المعروض فوق خيارات تسجيل الدخول عبر وسائل التواصل الاجتماعي في شاشة تسجيل الدخول"
+    },
+    "dontHaveAnAccount":"ليس لديك حساب؟",
+    "@dontHaveAnAccount": {
+        "description": "النص المعروض للسؤال عن وجود حساب في شاشة تسجيل الدخول"
+    },
+    "registerNow":"سجل الآن",
+    "@registerNow": {
+        "description": "النص الخاص بزر التسجيل في شاشة تسجيل الدخول"
+    },
+
+
+
+    "registerTitle":"التسجيل",
+    "@registerTitle":{
+        "description": "عنوان شاشة التسجيل الرئيسي"
+    },
+    "registerSubTitle":"أنشئ حسابك للبدء.",
+    "@registerSubTitle":{
+        "description": "العنوان الفرعي لشاشة التسجيل"
+    },
+    "firstNameHint":"الاسم الأول",
+    "@firstNameHint":{
+        "description": "نص تلميح حقل الاسم الأول في شاشة التسجيل"
+    },
+    "lastNameHint":"اسم العائلة",
+    "@lastNameHint":{
+        "description": "نص تلميح حقل اسم العائلة في شاشة التسجيل"
+    },
+    "confirmPasswordHint":"تأكيد كلمة المرور",
+    "@confirmPasswordHint":{
+        "description": "نص تلميح حقل تأكيد كلمة المرور في شاشة التسجيل"
+    },
+    "registerButton":"إنشاء حساب",
+    "@registerButton": {
+        "description": "نص زر إنشاء الحساب في شاشة التسجيل"
+    },
+    "orRegisterWith":"أو التسجيل بواسطة",
+    "@orRegisterWith": {
+        "description": "النص المعروض فوق خيارات التسجيل عبر وسائل التواصل الاجتماعي في شاشة التسجيل"
+    },
+    "alreadyHaveAnAccount":"هل لديك حساب بالفعل؟",
+    "@alreadyHaveAnAccount": {
+        "description": "النص الذي يحث المستخدمين على تسجيل الدخول إذا كان لديهم حساب بالفعل في شاشة التسجيل"
+    },
+    "loginNow":"تسجيل الدخول الآن",
+    "@loginNow": {
+        "description": "نص زر تسجيل الدخول في شاشة التسجيل"
+    },
+    "successfulRegistration":"تم إنشاء حسابك بنجاح 🎉",
+    "@successfulRegistration": {
+        "description": "الرسالة المعروضة بعد التسجيل الناجح"
+    },
+
+
+
+    "verifyAccountTitle":"أدخل الكود",
+    "@verifyAccountTitle":{
+        "description": ""
+    },
+    "verifyAccountSubTitle":"تم ارسال الكود الي البريد الالكتروني او رقم الهاتف. ادخل الكود لاستعادة كلمة المرور",
+    "@verifyAccountSubTitle":{
+        "description": ""
+    },
+
+
+
+    "nicknameHint":"اللقب",
+    "@nicknameHint":{
+        "description": "نص تلميح حقل اللقب في شاشة إعداد الملف الشخصي"
+    },
+    "bioHint":"السيرة الذاتية",
+    "@bioHint":{
+        "description": "نص تلميح حقل السيرة الذاتية في شاشة إعداد الملف الشخصي"
+    },
+    "completeProfileButton":"إكمال الملف الشخصي",
+    "@completeProfileButton":{
+        "description": "نص زر إكمال إعداد الملف الشخصي"
+    },
+    "imageUploadSuccess":"تم تحديث صورة الملف الشخصي بنجاح 🎉",
+    "@imageUploadSuccess":{
+        "description": "الرسالة المعروضة بعد تحديث صورة الملف الشخصي بنجاح"
+    },
+
+
+
+    "forgetPasswordTitle":"هل نسيت كلمة المرور؟",
+    "@forgetPasswordTitle":{
+         "description": "عنوان شاشة نسيت كلمة المرور"
+    },
+    "forgetPasswordSubTitle":"لا تقلق! فقط أدخل بريدك الإلكتروني وسنساعدك في إعادة تعيين كلمة المرور الخاصة بك.",
+    "@forgetPasswordSubTitle":{
+        "description": "العنوان الفرعي لشاشة نسيت كلمة المرور"
+    },
+    "resetPasswordButton":"إعادة تعيين كلمة المرور",
+    "@resetPasswordButton":{
+        "description": "نص زر إعادة تعيين كلمة المرور في شاشة نسيت كلمة المرور"
+    },
+    "notReceivedEmail":"لم تستلم البريد الإلكتروني؟",
+    "@notReceivedEmail":{
+        "description": "نص يحث المستخدمين عندما لم يستلموا بريد إعادة تعيين كلمة المرور"
+    },
+    "resendEmail":"↺ إعادة إرسال",
+    "@resendEmail":{
+        "description": "نص خيار إعادة إرسال البريد الإلكتروني في شاشة نسيت كلمة المرور"
+    },
+    "mailSent":"تم إرسال البريد الإلكتروني",
+    "@mailSent":{
+        "description": "الرسالة المعروضة بعد إرسال بريد إعادة تعيين كلمة المرور بنجاح"
+    },
+    "successfully": "بنجاح!",
+    "@successfully": {
+        "description": "النص المعروض بجانب رسالة نجاح إرسال البريد الإلكتروني لإعادة تعيين كلمة المرور"
+    },
+    "mailSentSubTitle":"لقد أرسلنا لك رابطًا لإعادة تعيين كلمة المرور الخاصة بك. يرجى التحقق من ",
+    "@mailSentSubTitle": {
+        "description": "العنوان الفرعي المعروض بعد إرسال بريد إعادة تعيين كلمة المرور بنجاح"
+    },
+    "inbox":"صندوق الوارد.",
+    "@inbox": {
+        "description": "النص الذي يشير إلى صندوق الوارد الخاص بالمستخدم حيث يجب عليهم التحقق من بريد إعادة تعيين كلمة المرور"
+    },
+    "mailSentSubTitle1":" انقر على الرابط بالداخل لإنشاء كلمة مرور جديدة وستعود في وقت قصير.",
+    "@mailSentSubTitle1": {
+        "description": "العنوان الفرعي المعروض بعد إرسال بريد إعادة تعيين كلمة المرور بنجاح"
+    },
+    "resetPasswordTitle":"🔒 إعادة تعيين كلمة المرور الخاصة بك",
+    "@resetPasswordTitle": {
+        "description": "عنوان شاشة إعادة تعيين كلمة المرور"
+    },
+    "resetPasswordSubTitle":"لا تقلق! فقط أدخل بريدك الإلكتروني وسنساعدك في إعادة تعيين كلمة المرور الخاصة بك.",
+    "@resetPasswordSubTitle": {
+        "description": "العنوان الفرعي لشاشة إعادة تعيين كلمة المرور"
+    },
+    "resetPasswordSuccess":"تم تحديث كلمة المرور الخاصة بك 🎉.",
+    "@resetPasswordSuccess": {
+        "description": "الرسالة المعروضة بعد إعادة تعيين كلمة المرور بنجاح"
+    },
+    "changePasswordButton":"تغيير كلمة المرور",
+    "@changePasswordButton": {
+        "description": "نص زر تغيير كلمة المرور في شاشة إعادة تعيين كلمة المرور"
+    },
+
+
+
+    "yesterday":"أمس",
+    "@yesterday": {
+        "description": "النص المعروض لتمثيل الرسائل المرسلة في اليوم السابق"
+    },
+    "today":"اليوم",
+    "@today": {
+        "description": "النص المعروض لتمثيل الرسائل المرسلة في نفس اليوم"
+    },
+
+
+
+
+    "settings":"الإعدادات",
+    "@settings": {
+        "description": "عنوان شاشة الإعدادات الرئيسي"
+    },
+    "generalSettings":"الإعدادات العامة",
+    "@generalSettings": {
+        "description": "عنوان قسم الإعدادات العامة في شاشة الإعدادات"
+    },
+    "other":"أخرى",
+    "@other": {
+        "description": "عنوان قسم الإعدادات الأخرى في شاشة الإعدادات"
+    },
+
+
+
+    "personalInfo":"المعلومات الشخصية",
+    "@personalInfo": {
+        "description": "عنوان شاشة معلومات المستخدم الشخصية"
+    },
+    "profile":"الملف الشخصي",
+    "@profile": {
+        "description": "عنوان شاشة إعدادات الملف الشخصي"
+    },
+    "saveChanges":"حفظ التغييرات",
+    "@saveChanges": {
+        "description": "نص زر حفظ التغييرات في شاشة إعدادات الملف الشخصي"
+    },
+
+
+
+    "friends":"الأصدقاء",
+    "@friends": {
+        "description": "عنوان شاشة إعدادات الأصدقاء"
+    },
+    "searchFriends":"ابحث عن الأصدقاء",
+    "@searchFriends": {
+        "description": "نص تلميح حقل البحث عن الأصدقاء في شاشة إعدادات الأصدقاء"
+    },
+    "allFriends":"جميع الأصدقاء",
+    "@allFriends": {
+        "description": "عنوان القسم الذي يعرض جميع الأصدقاء في شاشة إعدادات الأصدقاء"
+    },
+
+
+
+    "appSettings":"إعدادات التطبيق",
+    "@appSettings": {
+        "description": "عنوان شاشة إعدادات التطبيق"
+    },
+    "theme":"السمة",
+    "@theme": {
+        "description": "عنوان شاشة إعدادات السمة"
+    },
+    "selectTheme":"اختر سمة التطبيق :",
+    "@selectTheme": {
+        "description": "Subtitle for the theme settings screen"
+    },
+    "light":"فاتح",
+    "@light": {
+        "description": "Option for selecting light theme"
+    },
+    "dark":"داكن",
+    "@dark": {
+        "description": "Option for selecting dark theme"
+    },
+    "system":"نظام",
+    "@system": {
+        "description": "Option for selecting system default theme"
+    },
+    "language":"اللغة",
+    "@language": {
+        "description": "Title for the language settings screen"
+    },
+    "selectLanguage":"اختر لغتك المفضلة :",
+    "@selectLanguage": {
+        "description": "Subtitle for the language settings screen"
+    },
+    "english":"الإنجليزية",
+    "@english": {
+        "description": "Option for selecting English language"
+    },
+    "arabic":"العربية",
+    "@arabic": {
+        "description": "Option for selecting Arabic language"
+    },
+    "french":"الفرنسية",
+    "@french": {
+        "description": "Option for selecting French language"
+    },
+    "german":"الألمانية",
+     "@german": {
+        "description": "Option for selecting German language"
+    },
+    "italian":"الإيطالية",
+    "@italian": {
+        "description": "Option for selecting Italian language"
+    },
+
+
+
+    "otherSettings":"إعدادات أخرى",
+    "@otherSettings": {
+        "description": "عنوان شاشة الإعدادات الأخرى"
+    },
+    "inviteFriends":"دعوة الأصدقاء",
+    "@inviteFriends": {
+        "description": "نص خيار دعوة الأصدقاء في الإعدادات"
+    },
+    "logout":"تسجيل الخروج",
+    "@logout": {
+        "description": "نص خيار تسجيل الخروج في الإعدادات"
+    },
+    "logoutDialogTitle":"هل أنت متأكد أنك تريد تسجيل الخروج؟",
+    "@logoutDialogTitle": {
+        "description": "عنوان مربع حوار تأكيد تسجيل الخروج"
+    },
+    "logoutDialogContent":"سيكون عليك تسجيل الدخول مرة أخرى للوصول إلى حسابك.",
+    "@logoutDialogContent": {
+        "description": "محتوى مربع حوار تأكيد تسجيل الخروج"
+    },
+    "deleteAccount":"حذف الحساب",
+    "@deleteAccount": {
+        "description": "نص خيار حذف الحساب في الإعدادات"
+    },
+    "deleteAccountDialogTitle":"هل أنت متأكد أنك تريد حذف حسابك؟",
+    "@deleteAccountDialogTitle": {
+        "description": "عنوان مربع حوار تأكيد حذف الحساب"
+    },
+    "deleteAccountDialogContent":"هذا الإجراء لا يمكن التراجع عنه. سيتم حذف جميع بياناتك بشكل دائم.",
+    "@deleteAccountDialogContent": {
+        "description": "محتوى مربع حوار تأكيد حذف الحساب"
+    },
+    "deleteDialogConfirm":"نعم، احذف",
+    "@deleteDialogConfirm": {
+        "description": "نص زر التأكيد في مربع حوار تأكيد حذف الحساب"
+    },
+    "cancel":"إلغاء",
+    "@cancel": {
+        "description": "نص زر الإلغاء في مربعات حوار تأكيد تسجيل الخروج وحذف الحساب"
+    },
+
+
+
+    "helpAndSupport":"المساعدة والدعم",
+    "@helpAndSupport": {
+        "description": "عنوان شاشة المساعدة والدعم"
+    },
+    "supportCallTitle":"اضغط لاتصال بفريق الدعم",
+    "@supportCallTitle": {
+        "description": "عنوان قسم الاتصال بفريق الدعم في شاشة المساعدة والدعم"
+    },
+    "supportCallSubTitle":"اضغط لاتصال بفريق الدعم",
+    "@supportCallSubTitle": {
+        "description": "عنوان قسم الاتصال بفريق الدعم في شاشة المساعدة والدعم"
+    },
+    "supportWhatsappTitle":"واتساب",
+    "@supportWhatsappTitle": {
+        "description": "عنوان قسم الاتصال بفريق الدعم في شاشة المساعدة والدعم"
+    },
+    "supportWhatsappSubTitle":"اضغط للدردشة مع فريق الدعم على واتساب",
+    "@supportWhatsappSubTitle": {
+        "description": "عنوان قسم الاتصال بفريق الدعم في شاشة المساعدة والدعم"
+    },
+    "supportWebsiteTitle":"الموقع الإلكتروني",
+    "@supportWebsiteTitle": {
+        "description": "عنوان قسم الاتصال بفريق الدعم في شاشة المساعدة والدعم"
+    },
+    "supportWebsiteSubTitle":"اضغط لزيارة موقعنا الإلكتروني",
+    "@supportWebsiteSubTitle": {
+        "description": "عنوان قسم الاتصال بفريق الدعم في شاشة المساعدة والدعم"
+    },
+
+    
+
+    "faqQuestions":"--- الاسئلة الشائعة ---",
+    "@faqQuestions": {
+        "description": "عنوان قسم الأسئلة الشائعة في شاشة المساعدة والدعم"
+    },
+    "faqQuestion1":"هل IBond مجاني؟",
+    "@faqQuestion1": {
+        "description": "سؤال شائع أول في شاشة المساعدة والدعم"
+    },
+    "faqAnswer1":"أيوه! IBond مجاني تماماً للتحميل والاستخدام. بس هتحتاج اتصال إنترنت (واي فاي أو بيانات موبايل).",
+    "@faqAnswer1": {
+        "description": "إجابة السؤال الشائع الأول في شاشة المساعدة والدعم"
+    },
+    "faqQuestion2":"هل يعمل على الواي فاي وبيانات الموبايل؟",
+    "@faqQuestion2": {
+        "description": "سؤال شائع ثاني في شاشة المساعدة والدعم"
+    },
+    "faqAnswer2":"أيوه، IBond يعمل بكفاءة على الواي فاي وبيانات الموبايل. هيختار أفضل جودة حسب سرعة الاتصال عندك.",
+    "@faqAnswer2": {
+        "description": "إجابة السؤال الشائع الثاني في شاشة المساعدة والدعم"
+    },  
+    "faqQuestion3":"هل يدعم المكالمات الصوتية والمرئية؟",
+    "@faqQuestion3": {
+        "description": "سؤال شائع ثالث في شاشة المساعدة والدعم"
+    },
+    "faqAnswer3":"طبعاً! تقدر تعمل مكالمات صوتية ومرئية بجودة عالية مع أي شخص بيستخدم IBond.",
+    "@faqAnswer3": {
+        "description": "إجابة السؤال الشائع الثالث في شاشة المساعدة والدعم"
+    },
+    "faqQuestion4":"إزاي أضيف أصحابي؟",
+    "@faqQuestion4": {
+        "description": "سؤال شائع رابع في شاشة المساعدة والدعم"
+    },
+    "faqAnswer4":"بعد التسجيل، IBond هيعرض جهات الاتصال اللي عندهم التطبيق. كمان تقدر تدعو أصحابك لتحميل التطبيق.",
+    "@faqAnswer4": {
+        "description": "إجابة السؤال الشائع الرابع في شاشة المساعدة والدعم"
+    },
+    "faqQuestion5":"إيه البيانات اللي بتجمعوها؟",
+    "@faqQuestion5": {
+        "description": "سؤال شائع خامس في شاشة المساعدة والدعم"
+    },
+    "faqAnswer5":"بنجمع الحد الأدنى من البيانات المطلوبة لتشغيل الخدمة. ممكن تقرأ سياسة الخصوصية للتفاصيل الكاملة.",
+    "@faqAnswer5": {
+        "description": "إجابة السؤال الشائع الخامس في شاشة المساعدة والدعم"
+    },
+    "faqQuestion6":"إزاي أحذف حسابي أو أطلب حذف بياناتي؟",
+    "@faqQuestion6": {
+        "description": "سؤال شائع سادس في شاشة المساعدة والدعم"
+    },
+    "faqAnswer6":"تقدر تحذف حسابك من إعدادات التطبيق. لو عايز تطلب حذف بياناتك، تواصل معانا على البريد الإلكتروني.",
+    "@faqAnswer6": {
+        "description": "إجابة السؤال الشائع السادس في شاشة المساعدة والدعم"
+    },
+
+    
+
+    "termsAndPolicies":"الشروط والسياسات",
+    "@termsAndPolicies": {
+        "description": "عنوان شاشة الشروط والسياسات"
+    },
+    "policyTitle":"الخصوصية والأمان",
+    "@policyTitle": {
+        "description": "عنوان شاشة سياسة الخصوصية والأمان"
+    },
+    "ploicyContent":"مرحبًا بك في تطبيق الدردشة الخاص بنا. خصوصيتك مهمة جدًا بالنسبة لنا. تشرح سياسة الخصوصية هذه كيف نجمع ونستخدم ونحمي ونشارك معلوماتك عندما تستخدم تطبيقنا.",
+    "@ploicyContent": {
+        "description": "محتوى شاشة سياسة الخصوصية والأمان"
+    },
+    "informationWeCollect":"المعلومات التي نجمعها",
+    "@informationWeCollect": {
+        "description": "عنوان قسم المعلومات التي نجمعها في سياسة الخصوصية والأمان"
+    },
+    "informationWeCollectSubTitle1":"أ. المعلومات التي تزودنا بها:",
+    "@informationWeCollectSubTitle1": {
+    "description": "العنوان الفرعي للمعلومات التي يزودنا بها المستخدم في سياسة الخصوصية والأمان"
+    },
+    "informationWeCollectContent1":"• الاسم، واسم المستخدم، وصورة الملف الشخصي.\n• رقم الهاتف أو البريد الإلكتروني.\n• الرسائل، والملاحظات الصوتية، والصور، والملفات التي ترسلها.\n• جهات الاتصال (فقط في حال منح الإذن بالوصول).",
+    "@informationWeCollectContent1": {
+    "description": "محتوى قسم المعلومات التي يزودنا بها المستخدم في سياسة الخصوصية والأمان"
+    },
+    "informationWeCollectSubTitle2":"ب. المعلومات التي تُجمع تلقائياً:",
+    "@informationWeCollectSubTitle2": {
+    "description": "العنوان الفرعي للمعلومات التي تُجمع تلقائياً في سياسة الخصوصية والأمان"
+    },
+    "informationWeCollectContent2":"• نوع الجهاز، ونظام التشغيل، وإصدار التطبيق.\n• عنوان IP والموقع الجغرافي التقريبي.\n• بيانات الاستخدام مثل الميزات التي تستخدمها والوقت الذي تقضيه على التطبيق.",
+    "@informationWeCollectContent2": {
+    "description": "محتوى قسم المعلومات التي تُجمع تلقائياً في سياسة الخصوصية والأمان"
+    },
+    "howWeUseYourInformation":"3. كيف نستخدم معلوماتك",
+    "@howWeUseYourInformation": {
+    "description": "عنوان قسم كيف نستخدم معلوماتك في سياسة الخصوصية والأمان"
+    },
+    "howWeUseYourInformationSubTitle":"نستخدم معلوماتك من أجل:",
+    "@howWeUseYourInformationSubTitle": {
+    "description": "العنوان الفرعي لقسم كيف نستخدم معلوماتك في سياسة الخصوصية والأمان"
+    },
+    "howWeUseYourInformationContent":"• توفير ميزات الدردشة والمكالمات والوسائط وتحسينها.\n• إنشاء حسابك وإدارته.\n• تسليم الرسائل والمكالمات بشكل آمن.\n• تحسين الأداء وإصلاح الأخطاء.\n• إرسال إشعارات مهمة (مثل التنبيهات الأمنية).",
+    "@howWeUseYourInformationContent": {
+    "description": "محتوى قسم كيف نستخدم معلوماتك في سياسة الخصوصية والأمان"
+    },
+    "messagesAndEncryption":"4. الرسائل والتشفير",
+    "@messagesAndEncryption": {
+    "description": "عنوان قسم الرسائل والتشفير في سياسة الخصوصية والأمان"
+    },
+    "messagesAndEncryptionContent":"رسائلك محمية باستخدام التشفير التام (من الطرف إلى الطرف).\nهذا يعني أنه لا يمكن لأحد قراءة رسائلك سوى أنت والشخص الذي تدردش معه. لا يمكننا قراءة رسائلك الخاصة أو الاستماع إليها.",
+    "@messagesAndEncryptionContent": {
+    "description": "محتوى قسم الرسائل والتشفير في سياسة الخصوصية والأمان"
+    },
+    "sharingYourInformation":"5. مشاركة معلوماتك",
+    "@sharingYourInformation": {
+    "description": "عنوان قسم مشاركة معلوماتك في سياسة الخصوصية والأمان"
+    },
+    "sharingYourInformationSubTitle":"نحن نشارك المعلومات فقط في الحالات التالية:",
+    "@sharingYourInformationSubTitle": {
+    "description": "العنوان الفرعي لقسم مشاركة معلوماتك في سياسة الخصوصية والأمان"
+    },
+    "sharingYourInformationContent":"• عندما يقتضي القانون ذلك\n• لحماية المستخدمين ومنع الاحتيال\n• مع الشركاء الموثوقين الذين يساعدوننا في تشغيل الخدمة (بموجب قواعد خصوصية صارمة)\n",
+    "@sharingYourInformationContent": {
+    "description": "محتوى قسم مشاركة معلوماتك في سياسة الخصوصية والأمان"
+    },
+        "dataStorageAndSecurity": "6. تخزين البيانات وأمنها",
+    "@dataStorageAndSecurity": {
+        "description": "عنوان قسم تخزين البيانات وأمنها في سياسة الخصوصية والأمان"
+    },
+    "dataStorageAndSecuritySubTitle1": "نحن نستخدم تدابير أمنية قوية لحماية بياناتك، بما في ذلك:",
+    "@dataStorageAndSecuritySubTitle1": {
+        "description": "العنوان الفرعي لقسم تخزين البيانات وأمنها في سياسة الخصوصية والأمان"
+    },
+    "dataStorageAndSecurityContent": "• التشفير\n• خوادم آمنة\n• وصول محدود لبيانات المستخدم",
+    "@dataStorageAndSecurityContent": {
+        "description": "محتوى قسم تخزين البيانات وأمنها في سياسة الخصوصية والأمان"
+    },
+    "dataStorageAndSecuritySubTitle2": "على الرغم من جهودنا، لا يوجد نظام آمن بنسبة 100%، لكننا نعمل باستمرار لحماية معلوماتك.",
+    "@dataStorageAndSecuritySubTitle2": {
+        "description": "العنوان الفرعي لقسم تخزين البيانات وأمنها في سياسة الخصوصية والأمان"
+    },
+    "yourRights": "7. حقوقك",
+    "@yourRights": {
+        "description": "عنوان قسم حقوقك في سياسة الخصوصية والأمان"
+    },
+    "yourRightsSubTitle": "لديك الحق في:",
+    "@yourRightsSubTitle": {
+        "description": "العنوان الفرعي لقسم حقوقك في سياسة الخصوصية والأمان"
+    },
+    "yourRightsContent": "• الوصول إلى بياناتك الشخصية\n• تعديل أو تحديث ملفك الشخصي\n• حذف حسابك وبياناتك\n• التحكم في إعدادات الخصوصية (آخر ظهور، صورة الملف الشخصي، الحالة)",
+    "@yourRightsContent": {
+        "description": "محتوى قسم حقوقك في سياسة الخصوصية والأمان"
+    },
+    "changesToThisPolicy": "8. التغييرات في هذه السياسة",
+    "@changesToThisPolicy": {
+        "description": "عنوان قسم التغييرات في سياسة الخصوصية والأمان"
+    },
+    "changesToThisPolicyContent": "قد نقوم بتحديث هذه السياسة من وقت لآخر.\nعندما نفعل ذلك، سنقوم بتحديث تاريخ \"آخر تحديث\" وسنخطرك إذا كانت التغييرات جوهرية.",
+    "@changesToThisPolicyContent": {
+        "description": "محتوى قسم التغييرات في سياسة الخصوصية والأمان"
+    },
+    "contactUs": "9. اتصل بنا",
+    "@contactUs": {
+        "description": "عنوان قسم التواصل مع الدعم في سياسة الخصوصية والأمان"
+    },
+    "contactUsContent": "إذا كان لديك أي أسئلة حول سياسة الخصوصية هذه، يمكنك الاتصال بنا عبر:",
+    "@contactUsContent": {
+        "description": "محتوى قسم التواصل مع الدعم في سياسة الخصوصية والأمان"
+    },
+    "contactLastUpdated": "آخر تحديث: يناير 2026",
+    "@contactLastUpdated": {
+        "description": "نص يشير إلى تاريخ آخر تحديث لسياسة الخصوصية"
+    }
+}
