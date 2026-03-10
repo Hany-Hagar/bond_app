@@ -1,0 +1,627 @@
+{
+    "@@locale": "en",
+
+
+
+    "skip": "Skip",
+    "@skip": {
+        "description": "Text for the skip button on the onboarding screen"
+    },
+    "onBoardingTitle1": "Stay Connected",
+    "@onBoardingTitle1": {
+        "description": "Title of the first onboarding screen"
+    },
+    "onBoardingSubTitle1": "Instantly chat with friends, family, or colleagues anytime, anywhere.",
+    "@onBoardingSubTitle1": {
+        "description": "Subtitle of the first onboarding screen"
+    },
+    "onBoardingTitle2": "Security & Privacy",
+    "@onBoardingTitle2": {
+        "description": "Title of the second onboarding screen"
+    },
+    "onBoardingSubTitle2": "Your conversations are encrypted to keep your messages safe and private.",
+    "@onBoardingSubTitle2": {
+        "description": "Subtitle of the second onboarding screen"
+    },
+    "onBoardingTitle3": "Express Yourself",
+    "@onBoardingTitle3": {
+        "description": "Title of the third onboarding screen"
+    },
+    "onBoardingSubTitle3": "Share photos, voice notes, and emojis to make every chat more fun and personal.",
+    "@onBoardingSubTitle3": {
+        "description": "Subtitle of the third onboarding screen"
+    },
+
+
+
+    "loginTitle":"Welcome to",
+    "@loginTitle":{
+        "description": "Main title of the login screen"
+    },
+    "loginSubTitle":"Login to start bonding",
+    "@loginSubTitle":{
+        "description": "Subtitle of the login screen"
+    },
+    "emailHint":"Email Address",
+    "@emailHint":{
+        "description": "Hint text for the email field on the login screen"
+    },
+    "passwordHint":"Password",
+    "@passwordHint":{
+        "description": "Hint text for the password field on the login screen"
+    },
+    "forgotPassword":"Forgot Password?",
+    "@forgotPassword":{
+        "description": "Text for the forgot password option on the login screen"
+    },
+    "loginButton":"Login",
+    "@loginButton":{
+        "description": "Text for the login button on the login screen"
+    },
+    "orLoginWith":"Or login with",
+    "@orLoginWith":{
+        "description": "Text displayed above social media login options on the login screen"
+    },
+    "dontHaveAnAccount":"Don’t have an account?",
+    "@dontHaveAnAccount": {
+        "description": "Text prompting users to register if they don't have an account on the login screen"
+    },
+    "registerNow":"Register now",
+    "@registerNow": {
+        "description": "Text for the register button on the login screen"
+    },
+
+
+
+    "registerTitle":"Registeration",
+    "@registerTitle":{
+        "description": "Main title of the registration screen"
+    },
+    "registerSubTitle":"Create your account to get started.",
+    "@registerSubTitle":{
+        "description": "Subtitle of the registration screen"
+    },
+    "firstNameHint":"First Name",
+    "@firstNameHint":{
+        "description": "Hint text for the first name field on the registration screen"
+    },
+    "lastNameHint":"Last Name",
+    "@lastNameHint":{
+        "description": "Hint text for the last name field on the registration screen"
+    },
+    "confirmPasswordHint":"Confirm Password",
+    "@confirmPasswordHint":{
+        "description": "Hint text for the confirm password field on the registration screen"
+    },
+    "registerButton":"Create Account",
+    "@registerButton": {
+        "description": "Text for the register button on the registration screen"
+    },
+    "orRegisterWith":"Or register with",
+    "@orRegisterWith": {
+        "description": "Text displayed above social media registration options on the registration screen"
+    },
+    "alreadyHaveAnAccount":"Already have an account?",
+    "@alreadyHaveAnAccount": {
+        "description": "Text prompting users to login if they already have an account on the registration screen"
+    },
+    "loginNow":"Login now",
+    "@loginNow": {
+        "description": "Text for the login button on the registration screen"
+    },
+    "successfulRegistration":"Your account has been created successfully 🎉",
+    "@successfulRegistration": {
+        "description": "Message displayed after successful registration"
+    },
+
+
+
+    "verifyAccountTitle":" ",
+    "@verifyAccountTitle":{
+        "description": ""
+    },
+    "verifyAccountSubTitle":"تم ارسال الكود الي البريد الالكتروني او رقم الهاتف. ادخل الكود لاستعادة كلمة المرور",
+    "@verifyAccountSubTitle":{
+        "description": ""
+    },
+
+
+    
+    "nicknameHint":"Nick Name",
+    "@nicknameHint":{
+        "description": "Hint text for the nickname field on the profile setup screen"
+    },
+    "bioHint":"Bio",
+    "@bioHint":{
+        "description": "Hint text for the bio field on the profile setup screen"
+    },
+    "completeProfileButton":"Complete Profile",
+    "@completeProfileButton":{
+        "description": "Text for the button to complete profile setup"
+    },
+    "imageUploadSuccess":"Profile picture updated successfully 🎉",
+    "@imageUploadSuccess":{
+        "description": "Message displayed after successfully uploading a profile picture"
+    },
+
+
+
+    "forgetPasswordTitle":"Forgot Password?",
+    "@forgetPasswordTitle":{
+         "description": "Text for the forgot password option on the login screen"
+    },
+    "forgetPasswordSubTitle":"No worries! Just enter your email and we’ll help you reset your password.",
+    "@forgetPasswordSubTitle":{
+        "description": "Subtitle for the forgot password screen"
+    },
+    "resetPasswordButton":"Reset Password",
+    "@resetPasswordButton":{
+        "description": "Text for the reset password button on the forgot password screen"
+    },
+    "notReceivedEmail":"Not received email?",
+    "@notReceivedEmail":{
+        "description": "Text prompting users when they have not received the password reset email"
+    },
+    "resendEmail":"↺ Resend",
+    "@resendEmail":{
+        "description": "Text for the resend email option on the forgot password screen"
+    },
+    "mailSent":"Mail sent",
+    "@mailSent":{
+        "description": "Message displayed after successfully sending the password reset email"
+    },
+    "successfully": "successfully!",
+    "@successfully": {
+        "description": "Text appended to messages indicating successful actions"
+    },
+    "mailSentSubTitle":"We’ve sent you a link to reset your password. Please check your ",
+    "@mailSentSubTitle": {
+        "description": "Subtitle displayed after successfully sending the password reset email"
+    },
+    "inbox":"inbox.",
+    "@inbox": {
+        "description": "Text referring to the user's email inbox where they should check for the password reset email"
+    },
+    "mailSentSubTitle1":" Click the link inside to create a new password and you’ll be back in no time.",
+    "@mailSentSubTitle1": {
+        "description": "Subtitle displayed after successfully sending the password reset email"
+    },
+    "resetPasswordTitle":"🔒 Reset your password",
+    "@resetPasswordTitle": {
+        "description": "Title of the reset password screen"
+    },
+    "resetPasswordSubTitle":"No worries! Just enter your email and we’ll help you reset your password.",
+    "@resetPasswordSubTitle": {
+        "description": "Subtitle of the reset password screen"
+    },
+    "resetPasswordSuccess":"Your password has been updated 🎉.",
+    "@resetPasswordSuccess": {
+        "description": "Message displayed after successfully resetting the password"
+    },
+    "changePasswordButton":"Change Password",
+    "@changePasswordButton": {
+        "description": "Text for the button to change the password on the reset password screen"
+    },
+
+
+
+    "yesterday":"Yesterday",
+    "@yesterday": {
+        "description": "Text displayed to represent messages sent the previous day"
+    },
+    "today":"Today",
+    "@today": {
+        "description": "Text displayed to represent messages sent on the same day"
+    },
+
+
+
+    "settings":"Settings",
+    "@settings": {
+        "description": "Title for the settings screen"
+    },
+    "generalSettings":"General Settings",
+    "@generalSettings": {
+        "description": "Title for the general settings section"
+    },
+    "other":"Other",
+    "@other": {
+        "description": "Title for the other settings section"
+    },
+
+
+
+    "personalInfo":"Personal Info",
+    "@personalInfo": {
+        "description": "Title for the personal information settings screen"
+    },
+    "profile":"Profile",
+    "@profile": {
+        "description": "Title for the profile settings screen"
+    },
+    "saveChanges":"Save Changes",
+    "@saveChanges": {
+        "description": "Text for the button to save changes on the profile settings screen"
+    },
+
+
+
+    "friends":"Friends",
+    "@friends": {
+        "description": "Title for the friends settings screen"
+    },
+    "searchFriends":"Search for friends",
+    "@searchFriends": {
+        "description": "Hint text for the search field on the friends settings screen"
+    },
+    "allFriends":"All Friends",
+    "@allFriends": {
+        "description": "Title for the section displaying all friends on the friends settings screen"
+    },
+
+
+
+    "explore":"Explore",
+    "@explore": {
+        "description": "Title for the explore users screen"
+    },
+    "exploreTitle":"Explore Users",
+    "@exploreTitle": {
+        "description": "Title for the explore users screen"
+    },
+    "exploreSearchHint":"Search for users",
+    "@exploreSearchHint": {
+        "description": "Hint text for the search field on the explore users screen"
+    },
+    "mutualFriends":"Mutual Friends",
+    "@mutualFriends": {
+        "description": "Label for the number of mutual friends displayed on user cards in the explore users screen"
+    },  
+    "exploreEmpty":"No users found",
+    "@exploreEmpty": {
+        "description": "Text displayed when there are no users on the explore users screen"
+    },
+    "exploreEmptySearch":"No users found",
+    "@exploreEmptySearch": {
+        "description": "Text displayed when no users are found during search on the explore users screen"
+    },
+
+
+    "requests":"Requests",
+    "@requests": {
+        "description": "Title for the friend requests screen"
+    },
+    "requestsTitle":"Explore Requests",
+    "@requestsTitle": {
+        "description": "Title for the explore requests screen"
+    },
+    "requestsSearchHint":"Search for friend requests",
+    "@requestsSearchHint": {
+        "description": "Hint text for the search field on the explore requests screen"
+    },
+    "requestsEmpty":"No friend requests",
+    "@requestsEmpty": {
+        "description": "Text displayed when there are no friend requests on the explore requests screen"
+    },
+    "requestsEmptySearch":"No friend requests found",
+    "@requestsEmptySearch": {
+        "description": "Text displayed when no friend requests are found during search on the explore requests screen"
+    },
+    "accept":"Accept",
+    "@accept": {
+        "description": "Text for the accept button on friend requests in the explore requests screen"
+    },
+    "decline":"Decline",
+    "@decline": {        
+        "description": "Text for the decline button on friend requests in the explore requests screen"
+    },
+    "friendRequestAccepted":"Accepted successfully",
+    "@friendRequestAccepted": {
+        "description": "Message displayed when a friend request is accepted"
+    },
+    "friendRequestDeclined":"Declined successfully",
+    "@friendRequestDeclined": {
+        "description": "Message displayed when a friend request is declined"
+    },
+
+
+
+    "appSettings":"App Settings",
+    "@appSettings": {
+        "description": "Title for the app settings screen"
+    },
+    "theme":"Theme",
+    "@theme": {
+        "description": "Title for the theme settings screen"
+    },
+    "selectTheme":"Select your preferred theme :",
+    "@selectTheme": {
+        "description": "Subtitle for the theme settings screen"
+    },
+    "light":"Light",
+    "@light": {
+        "description": "Option for selecting light theme"
+    },
+    "dark":"Dark",
+    "@dark": {
+        "description": "Option for selecting dark theme"
+    },
+    "system":"System",
+    "@system": {
+        "description": "Option for selecting system default theme"
+    },
+    "language":"Language",
+    "@language": {
+        "description": "Title for the language settings screen"
+    },
+    "selectLanguage":"Select your preferred language :",
+    "@selectLanguage": {
+        "description": "Subtitle for the language settings screen"
+    },
+    "english":"English",
+    "@english": {
+        "description": "Option for selecting English language"
+    },
+    "arabic":"Arabic",
+    "@arabic": {
+        "description": "Option for selecting Arabic language"
+    },
+    "french":"French",
+    "@french": {
+        "description": "Option for selecting French language"
+    },
+    "german":"German",
+     "@german": {
+        "description": "Option for selecting German language"
+    },
+    "italian":"Italian",
+    "@italian": {
+        "description": "Option for selecting Italian language"
+    },
+
+
+
+    "otherSettings":"Other Settings",
+    "@otherSettings": {
+        "description": "Title for the other settings screen"
+    },
+    "inviteFriends":"Invite Friends",
+    "@inviteFriends": {
+        "description": "Text for the invite friends option in the settings"
+    },
+    "logout":"Logout",
+    "@logout": {
+        "description": "Text for the logout option in the settings"
+    },
+    "logoutDialogTitle":"Are you sure you want to logout?",
+    "@logoutDialogTitle": {
+        "description": "Title for the logout confirmation dialog"
+    },
+    "logoutDialogContent":"You will need to login again to access your account.",
+    "@logoutDialogContent": {
+        "description": "Content for the logout confirmation dialog"
+    },
+    "deleteAccount":"Delete Account",
+    "@deleteAccount": {
+        "description": "Text for the delete account option in the settings"
+    },
+    "deleteAccountDialogTitle":"Are you sure you want to delete your account?",
+    "@deleteAccountDialogTitle": {
+        "description": "Title for the delete account confirmation dialog"
+    },
+    "deleteAccountDialogContent":"This action cannot be undone. All your data will be permanently deleted.",
+    "@deleteAccountDialogContent": {
+        "description": "Content for the delete account confirmation dialog"
+    },
+    "deleteDialogConfirm":"Yes, Delete",
+    "@deleteDialogConfirm": {
+        "description": "Text for the confirm button in the delete account confirmation dialog"
+    },
+    "cancel":"Cancel",
+    "@cancel": {
+        "description": "Text for the cancel button in confirmation dialogs"
+    },
+
+
+
+    "helpAndSupport":"Help & Support",
+    "@helpAndSupport": {
+        "description": "Title for the help and support screen"
+    },
+    "supportCallTitle":"Tap to call support team",
+    "@supportCallTitle": {
+        "description": "Title for the support call section in the help and support screen"
+    },
+    "supportCallSubTitle":"Tap to call support team",
+    "@supportCallSubTitle": {
+        "description": "Subtitle for the support call section in the help and support screen"
+    },
+    "supportWhatsappTitle":"WhatsApp",
+    "@supportWhatsappTitle": {
+        "description": "Title for the WhatsApp support section in the help and support screen"
+    },
+    "supportWhatsappSubTitle":"Tap to chat with support team on WhatsApp",
+    "@supportWhatsappSubTitle": {
+        "description": "Subtitle for the WhatsApp support section in the help and support screen"
+    },
+    "supportWebsiteTitle":"Website",
+    "@supportWebsiteTitle": {
+        "description": "Title for the website support section in the help and support screen"
+    },
+    "supportWebsiteSubTitle":"Tap to visit our website",
+    "@supportWebsiteSubTitle": {
+        "description": "Subtitle for the website support section in the help and support screen"
+    },
+
+
+
+
+    "faqQuestions":"--- Frequently Asked Questions ---",
+    "@faqQuestions": {
+        "description": "Title for the frequently asked questions section in the help and support screen"
+    },
+    "faqQuestion1":"Is IBond free?",
+    "@faqQuestion1": {
+        "description": "First frequently asked question in the help and support screen"
+    },
+    "faqAnswer1":"Yes! IBond is completely free to download and use. However, you will need an internet connection (Wi-Fi or mobile data).",
+    "@faqAnswer1": {
+        "description": "Answer to the first frequently asked question in the help and support screen"
+    },
+    "faqQuestion2":"Does it work on Wi-Fi and mobile data?",
+    "@faqQuestion2": {
+        "description": "Second frequently asked question in the help and support screen"
+    },
+    "faqAnswer2":"Yes, IBond works efficiently on Wi-Fi and mobile data. It automatically selects the best quality based on your connection speed.",
+    "@faqAnswer2": {
+        "description": "Answer to the second frequently asked question in the help and support screen"
+    },  
+    "faqQuestion3":"Does it support voice and video calls?",
+    "@faqQuestion3": {
+        "description": "Third frequently asked question in the help and support screen"
+    },
+    "faqAnswer3":"Of course! You can make high-quality voice and video calls with anyone who uses IBond.",
+    "@faqAnswer3": {
+        "description": "Answer to the third frequently asked question in the help and support screen"
+    },
+    "faqQuestion4":"How do I add my friends?",
+    "@faqQuestion4": {
+        "description": "Fourth frequently asked question in the help and support screen"
+    },
+    "faqAnswer4":"After registration, IBond displays contacts who have the app installed. You can also invite your friends to download the app.",
+    "@faqAnswer4": {
+        "description": "Answer to the fourth frequently asked question in the help and support screen"
+    },  
+    "faqQuestion5":"What data do you collect?",
+    "@faqQuestion5": {
+        "description": "Fifth frequently asked question in the help and support screen"
+    },
+    "faqAnswer5":"We collect only the minimum amount of data required to run the service. You can read our privacy policy for full details.",
+    "@faqAnswer5": {
+        "description": "Answer to the fifth frequently asked question in the help and support screen"
+    },
+    "faqQuestion6":"How do I delete my account or request deletion of my data?",
+    "@faqQuestion6": {
+        "description": "Sixth frequently asked question in the help and support screen"
+    },
+    "faqAnswer6":"You can delete your account from the app settings. If you want to request deletion of your data, please contact us via email.",
+    "@faqAnswer6": {
+        "description": "Answer to the sixth frequently asked question in the help and support screen"
+    },
+
+
+
+    "termsAndPolicies":"Terms & Policies",
+    "@termsAndPolicies": {
+        "description": "Title for the terms and policies screen"
+    },
+    "policyTitle":"Privacy and Security",
+    "@policyTitle": {
+        "description": "Title for the privacy and security policy screen"
+    },
+    "ploicyContent":"Welcome to our Chat App. Your privacy is very important to us. This Privacy Policy explains how we collect, use, protect, and share your information when you use our application.",
+    "@ploicyContent": {
+        "description": "Content for the privacy and security policy screen"
+    },
+    "informationWeCollect":"Information We Collect",
+    "@informationWeCollect": {
+        "description": "Title for the section about information collection in the privacy policy"
+    },
+    "informationWeCollectSubTitle1":"a. Information You Provide:",
+    "@informationWeCollectSubTitle1": {
+        "description": "Subtitle for the section about user-provided information in the privacy policy"
+    },
+    "informationWeCollectContent1":"• Name, username, and profile photo.\n• Phone number or email address.\n• Messages, voice notes, images, and files you send.\n• Contacts (only if you allow access).",
+    "@informationWeCollectContent1": {
+        "description": "Content for the section about user-provided information in the privacy policy"
+    },
+    "informationWeCollectSubTitle2":"b. Automatically Collected Information:",
+    "@informationWeCollectSubTitle2": {
+        "description": "Subtitle for the section about automatically collected information in the privacy policy"
+    },
+    "informationWeCollectContent2":"• Device type, operating system, and app version.\n• IP address and approximate location.\n• Usage data such as features you use and time spent.",
+    "@informationWeCollectContent2": {
+        "description": "Content for the section about automatically collected information in the privacy policy"
+    },
+    "howWeUseYourInformation":"3. How We Use Your Information",
+    "@howWeUseYourInformation": {
+        "description": "Title for the section about how user information is used in the privacy policy"
+    },
+    "howWeUseYourInformationSubTitle":"We use your information to:",
+    "@howWeUseYourInformationSubTitle": {
+        "description": "Subtitle for the section about how user information is used in the privacy policy"
+    },
+    "howWeUseYourInformationContent":"• Provide and improve chat, call, and media features\n• Create and manage your account\n• Deliver messages and calls securely\n• Improve performance and fix bugs\n• Send important notifications (like security alerts)",
+    "@howWeUseYourInformationContent": {
+        "description": "Content for the section about how user information is used in the privacy policy"
+    },
+    "messagesAndEncryption":"4. Messages & Encryption",
+    "@messagesAndEncryption": {
+        "description": "Title for the section about messages and encryption in the privacy policy"
+    },
+    "messagesAndEncryptionContent":"Your messages are protected using end-to-end encryption.\nThis means only you and the person you are chatting with can read the messages. We cannot read or listen to your private messages.",
+    "@messagesAndEncryptionContent": {
+        "description": "Content for the section about messages and encryption in the privacy policy"
+    },
+    "sharingYourInformation":"5. Sharing Your Information",
+    "@sharingYourInformation": {
+        "description": "Title for the section about sharing user information in the privacy policy"
+    },
+    "sharingYourInformationSubTitle":"We only share information:",
+    "@sharingYourInformationSubTitle": {
+        "description": "Subtitle for the section about sharing user information in the privacy policy"
+    },
+    "sharingYourInformationContent":"• When required by law\n• To protect users and prevent fraud\n• With trusted partners who help us run the service (under strict privacy rules)\n",
+    "@sharingYourInformationContent": {
+        "description": "Content for the section about sharing user information in the privacy policy"
+    },
+    "dataStorageAndSecurity":"6. Data Storage & Security",
+    "@dataStorageAndSecurity": {
+        "description": "Title for the section about data storage and security in the privacy policy"
+    },
+    "dataStorageAndSecuritySubTitle1":"We use strong security measures to protect your data, including:",
+    "@dataStorageAndSecuritySubTitle1": {
+        "description": "Subtitle for the section about data storage and security in the privacy policy"
+    },
+    "dataStorageAndSecurityContent":"• Encryption\n• Secure servers\n•Limited access to user data",
+    "@dataStorageAndSecurityContent": {
+        "description": "Content for the section about data storage and security in the privacy policy"
+    },
+    "dataStorageAndSecuritySubTitle2":"Despite our efforts, no system is 100% secure, but we continuously work to protect your information.",
+    "@dataStorageAndSecuritySubTitle2": {
+        "description": "Subtitle for the section about data storage and security in the privacy policy"
+    },
+    "yourRights":"7. Your Rights",
+    "@yourRights": {
+        "description": "Title for the section about user rights in the privacy policy"
+    },
+    "yourRightsSubTitle":"You have the right to:",
+    "@yourRightsSubTitle": {
+        "description": "Subtitle for the section about user rights in the privacy policy"
+    },
+    "yourRightsContent":"• Access your personal data\n• Edit or update your profile\n• Delete your account and data\n• Control privacy settings (last seen, profile photo, status)",
+    "@yourRightsContent": {
+        "description": "Content for the section about user rights in the privacy policy"
+    },
+    "changesToThisPolicy":"8. Changes to This Policy",
+    "@changesToThisPolicy": {
+        "description": "Title for the section about changes to the privacy policy"
+    },
+    "changesToThisPolicyContent":"We may update this policy from time to time.\nWhen we do, we will update the “Last Updated” date and notify you if the changes are important.",
+    "@changesToThisPolicyContent": {
+        "description": "Content for the section about changes to the privacy policy"
+    },
+    "contactUs":"9. Contact Us",
+    "@contactUs": {
+        "description": "Title for the section about contacting support in the privacy policy"
+    },
+    "contactUsContent":"If you have any questions about this Privacy Policy, you can contact us at:",
+    "@contactUsContent": {
+        "description": "Content for the section about contacting support in the privacy policy"
+    },
+    "contactLastUpdated":"Last Updated: January 2026",
+    "@contactLastUpdated": {
+        "description": "Text indicating the last updated date of the privacy policy"
+    }
+
+}
