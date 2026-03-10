@@ -15,17 +15,24 @@ class RequestsCubit extends Cubit<RequestsStates> {
     : super(RequestsInitialState());
   static RequestsCubit get(context) => BlocProvider.of(context);
 
+<<<<<<< HEAD
   bool isFirstLoad = true;
+=======
+>>>>>>> b3a0b21b6298c6a0b8e0c04d5c582bb566b51f3f
   bool isSearching = false;
   List<RequestFriendModel> requests = [];
   List<RequestFriendModel> searchResults = [];
   var searchController = TextEditingController();
 
   Future<void> fetchRequests() async {
+<<<<<<< HEAD
     if (isFirstLoad) {
       isFirstLoad = false;
     } else {
       refreshFetchRequests();
+=======
+    if (requests.isNotEmpty) {
+>>>>>>> b3a0b21b6298c6a0b8e0c04d5c582bb566b51f3f
       return;
     }
     emit(RequestsLoadingState());
@@ -72,12 +79,17 @@ class RequestsCubit extends Cubit<RequestsStates> {
   }
 
   void acceptFriendRequest({required int requestId}) async {
+<<<<<<< HEAD
     emit(AcceptRequestLoadingState(requestId: requestId));
+=======
+    emit(AcceptRequestLoadingState());
+>>>>>>> b3a0b21b6298c6a0b8e0c04d5c582bb566b51f3f
     var token = secure.cachedToken;
     var data = await requestRepo.acceptFriendRequest(
       token: token!,
       requestId: requestId,
     );
+<<<<<<< HEAD
     data.fold((l) => emit(RequestsFailureState(message: l.toString())), (r) {
       emit(AcceptRequestSuccessState());
       refreshFetchRequests();
@@ -98,4 +110,11 @@ class RequestsCubit extends Cubit<RequestsStates> {
   }
 
 
+=======
+    data.fold(
+      (l) => emit(RequestsFailureState(message: l.toString())),
+      (r) => emit(AcceptRequestSuccessState()),
+    );
+  }
+>>>>>>> b3a0b21b6298c6a0b8e0c04d5c582bb566b51f3f
 }

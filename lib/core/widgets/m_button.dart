@@ -33,6 +33,7 @@ class MButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return isLoading
+<<<<<<< HEAD
         ? Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
@@ -43,6 +44,13 @@ class MButton extends StatelessWidget {
               )
           ]
         )
+=======
+        ? SizedBox(
+            height: 40.h,
+            width: 40.h,
+            child: CircularProgressIndicator(),
+          )
+>>>>>>> b3a0b21b6298c6a0b8e0c04d5c582bb566b51f3f
         : _Body(
             width: width,
             height: height,

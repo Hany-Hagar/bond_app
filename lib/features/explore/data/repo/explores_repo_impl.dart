@@ -74,6 +74,7 @@ class ExploreRepoImpl extends ExploreRepo {
       return Left(ApiFailure(ApiFailure.dioError(e)));
     }
   }
+<<<<<<< HEAD
 
     @override
   Future<Either<Failure, void>> cancleFriendRequest({
@@ -94,4 +95,6 @@ class ExploreRepoImpl extends ExploreRepo {
       return Left(ApiFailure(ApiFailure.dioError(e)));
     }
   }
+=======
+>>>>>>> b3a0b21b6298c6a0b8e0c04d5c582bb566b51f3f
 }

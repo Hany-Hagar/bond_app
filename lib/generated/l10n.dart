@@ -18,10 +18,15 @@ class S {
   static S? _current;
 
   static S get current {
+<<<<<<< HEAD
     assert(
       _current != null,
       'No instance of S was loaded. Try to initialize the S delegate before accessing S.current.',
     );
+=======
+    assert(_current != null,
+        'No instance of S was loaded. Try to initialize the S delegate before accessing S.current.');
+>>>>>>> b3a0b21b6298c6a0b8e0c04d5c582bb566b51f3f
     return _current!;
   }
 
@@ -43,10 +48,15 @@ class S {
 
   static S of(BuildContext context) {
     final instance = S.maybeOf(context);
+<<<<<<< HEAD
     assert(
       instance != null,
       'No instance of S present in the widget tree. Did you add S.delegate in localizationsDelegates?',
     );
+=======
+    assert(instance != null,
+        'No instance of S present in the widget tree. Did you add S.delegate in localizationsDelegates?');
+>>>>>>> b3a0b21b6298c6a0b8e0c04d5c582bb566b51f3f
     return instance!;
   }
 
@@ -321,7 +331,16 @@ class S {
 
   /// ` `
   String get verifyAccountTitle {
+<<<<<<< HEAD
     return Intl.message(' ', name: 'verifyAccountTitle', desc: '', args: []);
+=======
+    return Intl.message(
+      ' ',
+      name: 'verifyAccountTitle',
+      desc: '',
+      args: [],
+    );
+>>>>>>> b3a0b21b6298c6a0b8e0c04d5c582bb566b51f3f
   }
 
   /// `تم ارسال الكود الي البريد الالكتروني او رقم الهاتف. ادخل الكود لاستعادة كلمة المرور`
@@ -632,6 +651,7 @@ class S {
     );
   }
 
+<<<<<<< HEAD
   /// `Explore`
   String get explore {
     return Intl.message(
@@ -789,6 +809,8 @@ class S {
     );
   }
 
+=======
+>>>>>>> b3a0b21b6298c6a0b8e0c04d5c582bb566b51f3f
   /// `App Settings`
   String get appSettings {
     return Intl.message(

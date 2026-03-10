@@ -18,12 +18,18 @@ const String getProfile = 'users/me';
 const String searchFriendsUrl = 'friendships/search';
 const String exploreFriendsUrl = 'users/search/mutual-friends';
 const String sendFriendRequestUrl = 'friendships/requests';
+<<<<<<< HEAD
 const String cancelFriendRequestUrl = 'friendships/requests/cancel';
+=======
+>>>>>>> b3a0b21b6298c6a0b8e0c04d5c582bb566b51f3f
 
 // Api Friend Requests Endpoints
 const String getFriendRequestsUrl = 'friendships/requests';
 const String acceptFriendRequestUrl = 'friendships/requests/accept';
+<<<<<<< HEAD
 const String declineFriendRequestUrl = 'friendships/requests/decline';
+=======
+>>>>>>> b3a0b21b6298c6a0b8e0c04d5c582bb566b51f3f
 // Api Friends Endpoints
 const String getFriendsUrl = 'friendships';
 

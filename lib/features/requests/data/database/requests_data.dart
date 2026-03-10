@@ -33,6 +33,7 @@ class RequestsData {
       rethrow;
     }
   }
+<<<<<<< HEAD
 
     Future<Response> declineFriendRequest({
     required String token,
@@ -49,4 +50,6 @@ class RequestsData {
       rethrow;
     }
   }
+=======
+>>>>>>> b3a0b21b6298c6a0b8e0c04d5c582bb566b51f3f
 }
