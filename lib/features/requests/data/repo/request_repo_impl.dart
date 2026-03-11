@@ -49,7 +49,6 @@ class RequestsRepoImpl extends RequestsRepo {
       return Left(ApiFailure(ApiFailure.dioError(e)));
     }
   }
-<<<<<<< HEAD
 
     @override
   Future<Either<Failure, void>> declineFriendRequest({
@@ -70,6 +69,4 @@ class RequestsRepoImpl extends RequestsRepo {
       return Left(ApiFailure(ApiFailure.dioError(e)));
     }
   }
-=======
->>>>>>> b3a0b21b6298c6a0b8e0c04d5c582bb566b51f3f
 }

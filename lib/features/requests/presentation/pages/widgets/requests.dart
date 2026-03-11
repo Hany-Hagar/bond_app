@@ -1,14 +1,9 @@
 import 'package:flutter/material.dart';
 import '../../manager/requests_cubit.dart';
-<<<<<<< HEAD
 import '../../../../../generated/l10n.dart';
 import '../../manager/requests_states.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import '../../../../../core/widgets/empty.dart';
-=======
-import '../../manager/requests_states.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
->>>>>>> b3a0b21b6298c6a0b8e0c04d5c582bb566b51f3f
 import 'package:skeletonizer/skeletonizer.dart';
 import '../../../../../core/widgets/m_button.dart';
 import '../../../../../core/widgets/custom_text.dart';
@@ -31,39 +26,13 @@ class Requests extends StatelessWidget {
           var cubit = RequestsCubit.get(context);
           var isSearching = cubit.isSearching;
           var users = isSearching ? cubit.searchResults : cubit.requests;
-<<<<<<< HEAD
           return _Body(isSearching: isSearching, users: users);
-=======
-          return _Body(users: users);
->>>>>>> b3a0b21b6298c6a0b8e0c04d5c582bb566b51f3f
         }
       },
     );
   }
 }
 
-<<<<<<< HEAD
-=======
-class _Body extends StatelessWidget {
-  final List<RequestFriendModel> users;
-  const _Body({required this.users});
-
-  @override
-  Widget build(BuildContext context) {
-    return ListView.separated(
-      shrinkWrap: true,
-      padding: EdgeInsets.zero,
-      itemCount: users.length,
-      physics: AlwaysScrollableScrollPhysics(),
-      itemBuilder: (context, index) {
-        return _Item(request: users[index]);
-      },
-      separatorBuilder: (context, index) => SizedBox(height: 10.h),
-    );
-  }
-}
-
->>>>>>> b3a0b21b6298c6a0b8e0c04d5c582bb566b51f3f
 class _Loading extends StatelessWidget {
   final bool isLoading;
   const _Loading({required this.isLoading});
@@ -107,7 +76,6 @@ class _Loading extends StatelessWidget {
   }
 }
 
-<<<<<<< HEAD
 class _Body extends StatelessWidget {
   final bool isSearching;
   final List<RequestFriendModel> users;
@@ -137,8 +105,6 @@ class _Body extends StatelessWidget {
   }
 }
 
-=======
->>>>>>> b3a0b21b6298c6a0b8e0c04d5c582bb566b51f3f
 class _Item extends StatelessWidget {
   final RequestFriendModel request;
 
@@ -234,7 +200,6 @@ class _Actions extends StatelessWidget {
       children: [
         Expanded(
           child: MButton(
-<<<<<<< HEAD
             isLoading:
                 cubit.state is AcceptRequestLoadingState &&
                 (cubit.state as AcceptRequestLoadingState).requestId ==
@@ -242,19 +207,10 @@ class _Actions extends StatelessWidget {
             height: 45.h,
             text: S.of(context).accept,
             onPressed: () => cubit.acceptFriendRequest(requestId: request.id),
-=======
-            height: 45.h,
-            text: "Accept",
-            onPressed: () {
-              cubit.acceptFriendRequest(requestId: request.id);
-            },
-            color: Theme.of(context).primaryColor,
->>>>>>> b3a0b21b6298c6a0b8e0c04d5c582bb566b51f3f
           ),
         ),
         Expanded(
           child: MButton(
-<<<<<<< HEAD
             isLoading:
                 cubit.state is DeclineRequestLoadingState &&
                 (cubit.state as DeclineRequestLoadingState).requestId ==
@@ -263,12 +219,6 @@ class _Actions extends StatelessWidget {
             text: S.of(context).decline,
             color: Colors.grey[500],
             onPressed: () => cubit.declineFriendRequest(requestId: request.id),
-=======
-            height: 45.h,
-            text: "Decline",
-            onPressed: () {},
-            color: Colors.grey[500],
->>>>>>> b3a0b21b6298c6a0b8e0c04d5c582bb566b51f3f
           ),
         ),
       ],

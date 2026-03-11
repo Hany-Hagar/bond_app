@@ -2,11 +2,7 @@ import 'package:ibond_application/features/requests/presentation/pages/views/req
 
 import '../manager/layout_cubit.dart';
 import 'package:flutter/material.dart';
-<<<<<<< HEAD
 import '../../chat/views/chats_view.dart';
-=======
-import '../../chat/pages/views/chats_view.dart';
->>>>>>> b3a0b21b6298c6a0b8e0c04d5c582bb566b51f3f
 import '../../explore/presentation/pages/views/explore_view.dart';
 
 class LayoutBody extends StatelessWidget {

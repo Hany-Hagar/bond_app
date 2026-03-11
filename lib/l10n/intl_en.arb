@@ -261,7 +261,6 @@
 
 
 
-<<<<<<< HEAD
     "explore":"Explore",
     "@explore": {
         "description": "Title for the explore users screen"
@@ -327,8 +326,6 @@
 
 
 
-=======
->>>>>>> b3a0b21b6298c6a0b8e0c04d5c582bb566b51f3f
     "appSettings":"App Settings",
     "@appSettings": {
         "description": "Title for the app settings screen"

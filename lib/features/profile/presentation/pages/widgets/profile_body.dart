@@ -22,11 +22,7 @@ class ProfileBody extends StatelessWidget {
       children: [
         SizedBox(height: 1),
         _Image(),
-<<<<<<< HEAD
         ProfileForm(
-=======
-                ProfileForm(
->>>>>>> b3a0b21b6298c6a0b8e0c04d5c582bb566b51f3f
           formKey: cubit.formKey,
           formKey2: cubit.formKey2,
           autoValidate: cubit.autoValidate,
@@ -58,11 +54,7 @@ class _Image extends StatelessWidget {
           builder: (context, state) {
             return Padding(
               padding: EdgeInsetsDirectional.only(bottom: 6.h, end: 8.w),
-<<<<<<< HEAD
               child: CustomUserImage(radius: 80.r),
-=======
-              child: CustomUserImage(radius: 60.r),
->>>>>>> b3a0b21b6298c6a0b8e0c04d5c582bb566b51f3f
             );
           },
         ),
@@ -89,7 +81,3 @@ class _Image extends StatelessWidget {
     );
   }
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> b3a0b21b6298c6a0b8e0c04d5c582bb566b51f3f

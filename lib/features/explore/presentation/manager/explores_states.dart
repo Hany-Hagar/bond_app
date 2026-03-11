@@ -13,7 +13,6 @@ class ExploreFailureState extends ExploresStates {
 
 class FriendsSearchState extends ExploresStates {}
 
-<<<<<<< HEAD
 
 // Send Friend Request States
 
@@ -42,8 +41,3 @@ class AcceptFriendRequestLoadingState extends ExploresStates {
 }
 
 class AcceptFriendRequestSuccessState extends ExploresStates {}
-=======
-class SendFriendRequestLoadingState extends ExploresStates {}
-
-class SendFriendRequestSuccessState extends ExploresStates {}
->>>>>>> b3a0b21b6298c6a0b8e0c04d5c582bb566b51f3f

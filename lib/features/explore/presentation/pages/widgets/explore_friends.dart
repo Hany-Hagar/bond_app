@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import '../../manager/explores_cubit.dart';
@@ -13,18 +12,6 @@ import '../../../../../core/widgets/custom_text.dart';
 import '../../../../../core/widgets/mutual_friends.dart';
 import '../../../../../core/utils/navigator_methods.dart';
 import '../../../../friends/pages/friend_profile_view.dart';
-=======
-import 'package:flutter/material.dart';
-import 'package:flutter/cupertino.dart';
-import '../../manager/explores_cubit.dart';
-import '../../manager/explores_states.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:skeletonizer/skeletonizer.dart';
-import '../../../data/models/explore_model.dart';
-import '../../../../../core/widgets/custom_text.dart';
-import '../../../data/models/mutual_friend_model.dart';
-import '../../../../../core/widgets/mutual_friends.dart';
->>>>>>> b3a0b21b6298c6a0b8e0c04d5c582bb566b51f3f
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import '../../../../../core/widgets/custom_friend_image.dart';
 
@@ -41,72 +28,20 @@ class ExploreFriends extends StatelessWidget {
           var cubit = ExploresCubit.get(context);
           var isSearching = cubit.isSearching;
           var users = isSearching ? cubit.searchResults : cubit.exploreUsers;
-<<<<<<< HEAD
           return _Body(isSearching: isSearching, users: users);
-=======
-          return _Body(users: users);
->>>>>>> b3a0b21b6298c6a0b8e0c04d5c582bb566b51f3f
         }
       },
     );
   }
 }
 
-<<<<<<< HEAD
-=======
-class _Body extends StatelessWidget {
-  final List<ExploreModel> users;
-  const _Body({required this.users});
-
-  @override
-  Widget build(BuildContext context) {
-    return ListView.separated(
-      shrinkWrap: true,
-      padding: EdgeInsets.zero,
-      itemCount: users.length,
-      physics: AlwaysScrollableScrollPhysics(),
-      itemBuilder: (context, index) {
-        return _Item(user: users[index]);
-      },
-      separatorBuilder: (context, index) => SizedBox(height: 10.h),
-    );
-  }
-}
-
->>>>>>> b3a0b21b6298c6a0b8e0c04d5c582bb566b51f3f
 class _Loading extends StatelessWidget {
   final bool isLoading;
   const _Loading({required this.isLoading});
 
   @override
   Widget build(BuildContext context) {
-<<<<<<< HEAD
     var loadingItem = List.generate(5, (index) => ExploreModel.empty());
-=======
-    var loadingItem = List.generate(
-      5,
-      (index) => ExploreModel(
-        id: index,
-        firstName: '',
-        lastName: '',
-        username: '',
-        email: '',
-        profileImage: '',
-        bio: '',
-        mutualFriends: List.generate(
-          5,
-          (index) => MutualFriendModel(
-            id: index,
-            firstName: '',
-            lastName: '',
-            username: '',
-            email: '',
-            profileImage: '',
-          ),
-        ),
-      ),
-    );
->>>>>>> b3a0b21b6298c6a0b8e0c04d5c582bb566b51f3f
     return Skeletonizer(
       enabled: isLoading,
       ignoreContainers: true,
@@ -124,7 +59,6 @@ class _Loading extends StatelessWidget {
   }
 }
 
-<<<<<<< HEAD
 class _Body extends StatelessWidget {
   final bool isSearching;
   final List<ExploreModel> users;
@@ -154,8 +88,6 @@ class _Body extends StatelessWidget {
   }
 }
 
-=======
->>>>>>> b3a0b21b6298c6a0b8e0c04d5c582bb566b51f3f
 class _Item extends StatelessWidget {
   final ExploreModel user;
   const _Item({required this.user});
@@ -163,19 +95,15 @@ class _Item extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ListTile(
-<<<<<<< HEAD
       onTap: () {
         NavTo.push(context: context, nextPage: FriendProfileView());
       },
-=======
->>>>>>> b3a0b21b6298c6a0b8e0c04d5c582bb566b51f3f
       minTileHeight: 30.h,
       horizontalTitleGap: 10.w,
       shape: BeveledRectangleBorder(borderRadius: BorderRadius.circular(8.r)),
       tileColor: Theme.of(context).scaffoldBackgroundColor,
       leading: CustomFriendImage(profileImage: user.profileImage),
       contentPadding: EdgeInsets.symmetric(horizontal: 16.w, vertical: 8.h),
-<<<<<<< HEAD
       subtitle: MutualFriends(mutualFriends: user.mutualFriends),
       title: CustomText(text: user.username, size: 20.sp, type: Type.medium),
       trailing: _Icons(explore: user),
@@ -233,29 +161,11 @@ class _Icons extends StatelessWidget {
             },
           ),
       ],
-=======
-      subtitle: MutualFriends(mutualFriends: user.mutualFriends ?? []),
-      title: CustomText(text: user.username, size: 20.sp, type: Type.medium),
-      trailing: Row(
-        mainAxisSize: MainAxisSize.min,
-        children: [
-          _Icon(
-            icon: Icons.person_add,
-            onPressed: () {
-              ExploresCubit.get(context).sendFriendRequest(userId: user.id);
-            },
-          ),
-          SizedBox(width: 10.w),
-          _Icon(icon: CupertinoIcons.chat_bubble_fill, onPressed: () {}),
-        ],
-      ),
->>>>>>> b3a0b21b6298c6a0b8e0c04d5c582bb566b51f3f
     );
   }
 }
 
 class _Icon extends StatelessWidget {
-<<<<<<< HEAD
   final int userId;
   final IconData icon;
   final Function()? onPressed;
@@ -295,24 +205,6 @@ class _Icon extends StatelessWidget {
                 ),
               );
       },
-=======
-  final IconData icon;
-  final Function()? onPressed;
-  const _Icon({required this.icon, this.onPressed});
-
-  @override
-  Widget build(BuildContext context) {
-    return GestureDetector(
-      onTap: onPressed,
-      child: Container(
-        padding: EdgeInsets.all(10.r),
-        decoration: BoxDecoration(
-          color: Color(0xffCCE5FF),
-          borderRadius: BorderRadius.circular(10.r),
-        ),
-        child: Icon(icon, size: 30.sp, color: Theme.of(context).hintColor),
-      ),
->>>>>>> b3a0b21b6298c6a0b8e0c04d5c582bb566b51f3f
     );
   }
 }

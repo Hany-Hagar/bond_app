@@ -2,17 +2,10 @@ import 'dart:developer';
 import '../../../generated/l10n.dart';
 import 'package:flutter/material.dart';
 import '../../../core/widgets/custom_text.dart';
-<<<<<<< HEAD
 import '../../../core/utils/navigator_methods.dart';
 import '../../../core/widgets/custom_app_logo.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import '../../settings/presentation/pages/settings_view.dart';
-=======
-import '../../settings/pages/settings_view.dart';
-import '../../../core/utils/navigator_methods.dart';
-import '../../../core/widgets/custom_app_logo.dart';
-import 'package:flutter_screenutil/flutter_screenutil.dart';
->>>>>>> b3a0b21b6298c6a0b8e0c04d5c582bb566b51f3f
 import '../../profile/presentation/pages/views/profile_view.dart';
 
 class LayoutTop extends StatelessWidget {
@@ -65,11 +58,7 @@ class _MoreButton extends StatelessWidget {
           context: context,
           icon: Icons.group_add_outlined,
           text: 'New Group',
-<<<<<<< HEAD
           value:SizedBox(),
-=======
-          value: SizedBox(),
->>>>>>> b3a0b21b6298c6a0b8e0c04d5c582bb566b51f3f
         ),
         const PopupMenuDivider(),
         _moreItem(
